@@ -52,11 +52,16 @@ function createPost({name, username, location, avatar,post,comment,likes}) {
     `
 }
 
-function renderPost(post) {
-    container.innerHTML += createPost(post)
+function renderPosts(posts) {
+    for (let i = 0; i < posts.length; i++) {
+        container.innerHTML += createPost(posts[i])
+    }    
 }
 
-for (let i = 0; i < posts.length; i++) {
-    renderPost(posts[i])
-}
+renderPosts(posts);
+
+
+
+
+
 
