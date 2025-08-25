@@ -7,3 +7,27 @@ body {
     font-family: "Source Sans 3", sans-serif;
 }
 
+.container {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    border: 1px solid #C6C6C6
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 17px;
+}
+
+.logo {
+    width: 127px;
+}
+
+.usr-avatar {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
